@@ -1,0 +1,95 @@
+/* basic selectors  */
+/* p {
+  color: green;
+} */
+/* div {
+  background: green;
+} */
+
+/* #fifth {
+  color: red;
+} */
+
+.pg {
+  color: yellow;
+  background: black;
+}
+
+/* #fifth {
+  color: blue !important;
+} */
+
+/* Descendant (space) */
+/* section p {
+  color: red;
+} */
+
+/* Child (>) */
+/* section > p {
+  background: black;
+} */
+
+/* Adjacent (+) */
+/* Sibling (~) */
+
+/* section + div {
+  color: cyan;
+  background: black;
+} */
+
+/* Sibling (~) */
+/* section ~ div {
+  color: cyan;
+  background: black;
+} */
+
+/* div + p {
+  background-color: black;
+  color: white;
+} */
+
+/* section > div p {
+  background-color: black;
+  color: white;
+} */
+
+/* 3. Attribute Selector */
+/* [Attribute-Name]
+[Attribute-Name=”value”]
+element[Attribute-Name] */
+
+[href] {
+  color: red;
+
+  font-size: 32px;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+[href="contact.html"] {
+  background: yellow;
+}
+
+/* 4. Pseudo-elements Selector */
+/* p::first-letter {
+  font-size: 32px;
+}
+p::first-line {
+  background: yellow;
+} */
+
+/* 4. Pseudo-class Selector */
+a:hover {
+  font-size: 32px;
+  color: red;
+}
+
+/* p:nth-child(1) {
+  color: red;
+} */
+
+/* p:nth-child(even) {
+  color: red;
+} */
